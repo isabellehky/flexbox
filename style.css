@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.flex {
+    border: 2px solid white;
+    margin: 20px;
+    display: flex;
+}
+
+.flex div{
+    border: 2px solid black;
+    display:flex;
+    width: 800px;
+    height: 100px;
+    margin: 20px;
+}
+
+#special{
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+
+.topnav h1 {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: flex;
+    flex-flow:row;
+    justify-content: space-around;
+}
+
+.green{
+    background-color: green;
+}
