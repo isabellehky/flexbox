@@ -24,22 +24,25 @@
     padding: 14px;
 }
 
-.topnav {
-    background-color: black;
-    overflow: hidden;
-    color: white;
-}
-
-.topnav h1 {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    font-size: 17px;
+.menu{
     display: flex;
-    flex-flow:row;
-    justify-content: space-around;
+    font-style: white;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.green{
+.logo{
     background-color: green;
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.item{
+    order: 1;
+    font-size: 20px;
+    display: flex;
+    padding: 8px;
+    color: white;
 }
